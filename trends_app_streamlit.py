@@ -1,6 +1,7 @@
 import streamlit as st
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
+import toml
 
 st.set_page_config(
 layout='wide')
